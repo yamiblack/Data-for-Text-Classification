@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e882595b-5a1b-4824-82f2-4cde0ced3b47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/계획/과거계획.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/계획/과거계획.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/강아지.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/동물/강아지.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/고양이.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/동물/고양이.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/사람/사람.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/사람/사람.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/식물/꽃.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/식물/꽃.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/캐릭터/디지몬.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/캐릭터/디지몬.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/캐릭터/뽀로로.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/캐릭터/뽀로로.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Data_for_Text_Classification$script.coverage" NAME="script Coverage Results" MODIFIED="1557454230984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1284166975">
@@ -22,23 +28,119 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="1" />
+          <entry key="CSV" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSV" value="110" />
+          <entry key="CSV" value="616" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/동사/계획/과거계획.csv">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/동사/감정/놀랐니.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="270">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/캐릭터/디지몬.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/캐릭터/뽀로로.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/동물/강아지.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="4" lean-forward="true" selection-end-line="14" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/동물/동물.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/명사/동물/고양이.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/사람/가족.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/사람/사람.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="538">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/식물/나무.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/식물/꽃.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -47,6 +149,14 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>강아지</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>고양이</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +172,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/동사/계획/과거계획.csv" />
+        <option value="$PROJECT_DIR$/명사/캐릭터/디지몬.csv" />
+        <option value="$PROJECT_DIR$/명사/캐릭터/뽀로로.csv" />
+        <option value="$PROJECT_DIR$/명사/동물/강아지.csv" />
+        <option value="$PROJECT_DIR$/명사/사람/사람.csv" />
+        <option value="$PROJECT_DIR$/명사/식물/꽃.csv" />
+        <option value="$PROJECT_DIR$/명사/동물/고양이.csv" />
       </list>
     </option>
   </component>
@@ -92,18 +208,25 @@
             <path>
               <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="계획" type="462c0819:PsiDirectoryNode" />
+              <item name="명사" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
               <item name="명사" type="462c0819:PsiDirectoryNode" />
+              <item name="동물" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="명사" type="462c0819:PsiDirectoryNode" />
+              <item name="사람" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="명사" type="462c0819:PsiDirectoryNode" />
+              <item name="식물" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -117,9 +240,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557454067591" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -153,6 +280,33 @@
       <module name="" />
       <method v="2" />
     </configuration>
+    <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data for Text Classification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.script" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -164,12 +318,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557415217094</updated>
-      <workItem from="1557415220445" duration="197000" />
+      <workItem from="1557415220445" duration="2990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197000" />
+    <option name="totallyTimeSpent" value="2990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -230,7 +384,101 @@
     <entry file="file://$PROJECT_DIR$/동사/계획/과거계획.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="210">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/감정/놀람.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/감정/놀랐니.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/캐릭터/디지몬.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/캐릭터/뽀로로.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/사람/가족.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/사람/사람.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="538">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/식물/나무.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/식물/꽃.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/동물/동물.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/동물/강아지.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="4" lean-forward="true" selection-end-line="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/동물/고양이.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
