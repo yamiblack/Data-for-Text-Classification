@@ -30,4 +30,8 @@ for q, i in data.values:
         idx += 1
     intent_mapping[i] = idx
 
-print(result)
+for i in result.values:
+    print(i[1])
+
+for i, x in enumerate(intent_mapping):
+    print(i, ' : ', x)
