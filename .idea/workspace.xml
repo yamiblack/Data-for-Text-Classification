@@ -2,96 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e882595b-5a1b-4824-82f2-4cde0ced3b47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/동사/고민/결정.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/동사/고민/고민.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/동사/고민/선택.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/동사/도와줌/도와줘.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/동사/식사/먹니.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/동사/식사/먹음.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/동사/식사/배고프니.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/동사/식사/배고픔.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/관계/부부.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/관계/연인.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/관계/형제.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/동물/곤충벌레.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/동물/공룡.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/동물/상상의동물.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/동물/연체동물.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/동물/펭귄.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/동물/해충.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/병/병.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/사물/가구.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/사물/사물.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/사물/의류.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/사물/전자제품.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/사물/필기구.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/스포츠/스포츠.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/스포츠/스포츠대회.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/예술/만화.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/예술/영화.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/음식/피자.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/음식/햄버거.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/인간/결혼.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/인간/삶.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/인간/생각.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/인간/통과의례.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/인물/아빠.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/인물/친구.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/장소/경기장.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/장소/명소.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/장소/상가.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/체계/국가.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/체계/기념일.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/체계/도시.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/체계/돈.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/체계/명절.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/체계/수.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/명사/학업/숙제.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/목적/알람/알람목적.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/동사/위로/위로하니.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/동사/행위/놀음.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/동사/행위/움직임.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/기업/기업.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/기업/웹사이트.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/사물/침대.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/생물/균계.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/생물/생물.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/생물/식물.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/인간/사랑.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/인간/신체.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/인간/우정.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/인간/인생.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/인간/죽음.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/인물관계/부부.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/인물관계/연인.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/인물관계/형제.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/직업/경찰.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/직업/선생님.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/직업/소방관.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/직업/직업.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/체계/나이.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/체계/언어.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/명사/체계/우주.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/대답/거절.csv" beforeDir="false" afterPath="$PROJECT_DIR$/etc/대답/거절.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/되묻기/진위판별.csv" beforeDir="false" afterPath="$PROJECT_DIR$/etc/되묻기/진위판별.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/대답/공감.csv" beforeDir="false" afterPath="$PROJECT_DIR$/etc/대답/공감.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etc/명사+동사/병에걸렸어.csv" beforeDir="false" afterPath="$PROJECT_DIR$/etc/명사+동사/병에걸렸어.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/호출/호출.csv" beforeDir="false" afterPath="$PROJECT_DIR$/etc/호출/호출.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train_intent.csv" beforeDir="false" afterPath="$PROJECT_DIR$/train_intent.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/기분나쁨.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/감정/기분나쁨.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/기분좋음.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/감정/기분좋음.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/놀랐니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/감정/놀랐니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/계획/과거계획.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/계획/과거계획.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/균계/균계.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/균계/균계.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/균계/버섯.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/균계/버섯.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/동물/갑각류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/동물/갑각류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/동물/고양이.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/동물/고양이.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/동물/곤충.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/감사/감사하니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/동물/돼지.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/동물/돼지.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/동물/양서류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/동물/양서류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/동물/어류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/동물/어류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/동물/조류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/동물/조류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/동물/파충류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/동물/파충류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/동물/포유류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/동물/포유류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사람/가족.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/관계/가족.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사람/누나.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물/누나.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사람/부모.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/관계/부모.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사람/사람.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물/사람.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사람/아빠.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/고민/결정.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사람/엄마.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물/엄마.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사람/오빠.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물/오빠.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사람/친구.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/고민/고민.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사람/친척.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/관계/친척.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/식물/나무.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/식물/나무.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/면음식.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/음식/면음식.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/음식.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/음식/음식.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인공지능/인공지능용어.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인공지능/인공지능용어.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/자연/바다.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/자연/바다.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/자연/태양.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/자연/태양.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/법원.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/장소/법원.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/병원.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/장소/병원.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/식당.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/장소/식당.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/캐릭터/디지몬.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/캐릭터/디지몬.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/동사/감사/감사하니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/마음/감사하니.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/동사/감사/감사함.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/마음/감사함.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/동사/도와줌/도와줘.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/부탁/도와줘.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/동사/모름/모르니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/etc/명사+동사/나이몇살이니.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/동사/모름/모름.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/앎/모름.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/동사/악기/연주.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/행위/연주.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/동사/움직임/감.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/행위/감.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/동사/움직임/움직임.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/마음/미안하니.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/관계/가족.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물관계/가족.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/관계/부모.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물관계/부모.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/관계/부부.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/마음/미안함.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/관계/연인.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/부탁/해줘.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/관계/친척.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물관계/친척.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/관계/형제.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/앎/모르니.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/균계/균계.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/균계/버섯.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/버섯.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/갑각류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/갑각류.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/강아지.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/강아지.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/고양이.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/고양이.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/곤충벌레.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/곤충벌레.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/공룡.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/공룡.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/돼지.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/돼지.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/상상의동물.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/상상의동물.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/양서류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/양서류.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/어류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/어류.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/연체동물.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/연체동물.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/조류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/조류.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/파충류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/파충류.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/펭귄.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/펭귄.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/포유류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/포유류.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/동물/해충.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/해충.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/병/병.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/질병/질병.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/사물/가구.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/사물/가구.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/사물/의류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/사물/의류.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/스포츠/스포츠.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/스포츠/스포츠.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/스포츠/스포츠대회.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/식물/꽃.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/꽃.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/식물/나무.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/생물/나무.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/인간/삶.csv" beforeDir="false" afterPath="$PROJECT_DIR$/동사/앎/아니.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/인물/누나.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물관계/누나.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/인물/사람.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물관계/사람.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/인물/아빠.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물관계/아빠.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/인물/엄마.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물관계/엄마.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/인물/오빠.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물관계/오빠.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/인물/친구.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/인물관계/친구.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/체계/국가.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/체계/국가.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/명사/캐릭터/뽀로로.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/캐릭터/뽀로로.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/명사/캐릭터/캐릭터.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/캐릭터/캐릭터.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/명사/캐릭터/포켓몬.csv" beforeDir="false" afterPath="$PROJECT_DIR$/명사/캐릭터/포켓몬.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/날씨/날씨목적.csv" beforeDir="false" afterPath="$PROJECT_DIR$/목적/날씨/날씨목적.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/댄스/댄스목적.csv" beforeDir="false" afterPath="$PROJECT_DIR$/목적/댄스/댄스목적.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/명언/명언목적.csv" beforeDir="false" afterPath="$PROJECT_DIR$/목적/명언/명언목적.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/목적/위키/위키.csv" beforeDir="false" afterPath="$PROJECT_DIR$/목적/위키/위키.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +90,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Data_for_Text_Classification$script.coverage" NAME="script Coverage Results" MODIFIED="1557465162229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Data_for_Text_Classification$script.coverage" NAME="script Coverage Results" MODIFIED="1557468267395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1284166975">
@@ -112,24 +102,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="337" />
-          <entry key="Python" value="6" />
+          <entry key="CSV" value="426" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSV" value="7402" />
-          <entry key="Python" value="155" />
+          <entry key="CSV" value="7996" />
+          <entry key="Python" value="229" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="198">
+              <caret line="24" selection-start-line="24" selection-end-line="31" />
               <folding>
                 <element signature="e#74#83#0" expanded="true" />
               </folding>
@@ -138,10 +129,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/인물관계/형제.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="217">
+              <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/자연/바다.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/체계/기념일.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/명사/사물/침대.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_intent.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="104910">
-              <caret line="3572" column="10" lean-forward="true" selection-start-line="3572" selection-start-column="10" selection-end-line="3572" selection-end-column="10" />
+            <state relative-caret-position="439">
+              <caret line="4220" lean-forward="true" selection-end-line="4220" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -150,10 +181,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/명사/체계/국가.csv">
+        <entry file="file://$PROJECT_DIR$/동사/행위/놀음.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="428">
-              <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -162,7 +193,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/명사/인간/삶.csv">
+        <entry file="file://$PROJECT_DIR$/동사/칭찬/칭찬.csv">
           <provider selected="true" editor-type-id="csv-text-editor" />
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" rowLines="3" />
@@ -170,7 +201,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/명사/인간/통과의례.csv">
+        <entry file="file://$PROJECT_DIR$/동사/행위/감.csv">
           <provider selected="true" editor-type-id="csv-text-editor" />
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" rowLines="3" />
@@ -178,44 +209,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/명사/인간/결혼.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/명사/관계/형제.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/명사/관계/부부.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/명사/관계/부모.csv">
+        <entry file="file://$PROJECT_DIR$/동사/행위/연주.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-472">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="150">
+              <caret line="5" column="10" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/명사/관계/연인.csv">
-          <provider selected="true" editor-type-id="csv-text-editor" />
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" rowLines="3" />
           </provider>
@@ -232,20 +231,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>,과자</find>
-      <find>,소고기</find>
-      <find>,초콜릿</find>
-      <find>이런</find>
-      <find>어머니</find>
-      <find>오빠</find>
-      <find>때</find>
-      <find>아빠아버지</find>
-      <find>엄마어</find>
-      <find />
-      <find>상했어</find>
-      <find>,기분나쁨</find>
-      <find>나쁘</find>
-      <find>좋니까</find>
       <find>최악</find>
       <find>상한다</find>
       <find>과제</find>
@@ -262,22 +247,22 @@
       <find>음식점</find>
       <find>중국집</find>
       <find>종합</find>
+      <find>친구</find>
+      <find>나이질문</find>
+      <find>를</find>
+      <find>부모</find>
+      <find>형제</find>
+      <find>남매</find>
+      <find>자배</find>
+      <find>애인</find>
+      <find>부부</find>
+      <find>남편</find>
+      <find>와이프</find>
+      <find>남자</find>
+      <find>,형제</find>
+      <find>놀고싶음</find>
     </findStrings>
     <replaceStrings>
-      <replace>공원</replace>
-      <replace>교회</replace>
-      <replace>현악기</replace>
-      <replace>,현악기</replace>
-      <replace>,면음식</replace>
-      <replace>,고기</replace>
-      <replace>,간식</replace>
-      <replace>아빠아버지</replace>
-      <replace>친구</replace>
-      <replace>아빠 아버지</replace>
-      <replace />
-      <replace>좋아서</replace>
-      <replace>,기분좋음</replace>
-      <replace>좋</replace>
       <replace>좋으니까</replace>
       <replace>최고</replace>
       <replace>좋다</replace>
@@ -294,6 +279,20 @@
       <replace>중국집</replace>
       <replace>레스토랑</replace>
       <replace>대학</replace>
+      <replace>절친</replace>
+      <replace>나이몇살이니</replace>
+      <replace />
+      <replace>부부</replace>
+      <replace>연인</replace>
+      <replace>형제</replace>
+      <replace>남매</replace>
+      <replace>자배</replace>
+      <replace>자매</replace>
+      <replace>남자친구</replace>
+      <replace>와이프</replace>
+      <replace>부인</replace>
+      <replace>여자</replace>
+      <replace>놀음</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -309,30 +308,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/명사/균계/버섯.csv" />
-        <option value="$PROJECT_DIR$/명사/동물/펭귄.csv" />
-        <option value="$PROJECT_DIR$/명사/캐릭터/디지몬.csv" />
-        <option value="$PROJECT_DIR$/명사/캐릭터/포켓몬.csv" />
-        <option value="$PROJECT_DIR$/명사/캐릭터/캐릭터.csv" />
-        <option value="$PROJECT_DIR$/명사/사물/필기구.csv" />
-        <option value="$PROJECT_DIR$/목적/날씨/날씨목적.csv" />
-        <option value="$PROJECT_DIR$/목적/댄스/댄스목적.csv" />
-        <option value="$PROJECT_DIR$/동사/도와줌/도와줘.csv" />
-        <option value="$PROJECT_DIR$/명사/화폐/돈.csv" />
-        <option value="$PROJECT_DIR$/명사/체계/돈.csv" />
-        <option value="$PROJECT_DIR$/명사/사물/가구.csv" />
-        <option value="$PROJECT_DIR$/명사/체계/수.csv" />
-        <option value="$PROJECT_DIR$/명사/스포츠/대회.csv" />
-        <option value="$PROJECT_DIR$/명사/동물/벌레.csv" />
-        <option value="$PROJECT_DIR$/명사/동물/무척추동물.csv" />
-        <option value="$PROJECT_DIR$/명사/동물/곤충.csv" />
-        <option value="$PROJECT_DIR$/명사/동물/곤충벌레.csv" />
-        <option value="$PROJECT_DIR$/명사/마음/생각.csv" />
-        <option value="$PROJECT_DIR$/명사/마음/마음.csv" />
-        <option value="$PROJECT_DIR$/명사/마음/심리.csv" />
         <option value="$PROJECT_DIR$/명사/인간/심리.csv" />
         <option value="$PROJECT_DIR$/명사/인간/생각.csv" />
-        <option value="$PROJECT_DIR$/명사/균계/균계.csv" />
         <option value="$PROJECT_DIR$/명사/동물/돼지.csv" />
         <option value="$PROJECT_DIR$/명사/동물/조류.csv" />
         <option value="$PROJECT_DIR$/명사/동물/공룡.csv" />
@@ -348,18 +325,40 @@
         <option value="$PROJECT_DIR$/명사/동물/연체동물.csv" />
         <option value="$PROJECT_DIR$/명사/인공지능/인공지능용어.csv" />
         <option value="$PROJECT_DIR$/명사/학업/숙제.csv" />
-        <option value="$PROJECT_DIR$/etc/명사+동사/병에걸렸어.csv" />
         <option value="$PROJECT_DIR$/etc/되묻기/진위판별.csv" />
         <option value="$PROJECT_DIR$/etc/대답/거절.csv" />
-        <option value="$PROJECT_DIR$/명사/스포츠/스포츠.csv" />
-        <option value="$PROJECT_DIR$/명사/스포츠/스포츠대회.csv" />
         <option value="$PROJECT_DIR$/명사/장소/영화관.csv" />
         <option value="$PROJECT_DIR$/명사/장소/법원.csv" />
         <option value="$PROJECT_DIR$/명사/장소/식당.csv" />
         <option value="$PROJECT_DIR$/명사/장소/병원.csv" />
         <option value="$PROJECT_DIR$/명사/장소/경기장.csv" />
         <option value="$PROJECT_DIR$/명사/장소/상가.csv" />
+        <option value="$PROJECT_DIR$/etc/대답/공감.csv" />
+        <option value="$PROJECT_DIR$/명사/인물/친구.csv" />
+        <option value="$PROJECT_DIR$/명사/사물/가구.csv" />
+        <option value="$PROJECT_DIR$/명사/사물/의류.csv" />
+        <option value="$PROJECT_DIR$/명사/스포츠/스포츠대회.csv" />
+        <option value="$PROJECT_DIR$/명사/스포츠/스포츠.csv" />
+        <option value="$PROJECT_DIR$/명사/캐릭터/케로로.csv" />
+        <option value="$PROJECT_DIR$/명사/캐릭터/캐릭터.csv" />
+        <option value="$PROJECT_DIR$/목적/위키/위키.csv" />
+        <option value="$PROJECT_DIR$/etc/명사+동사/나이몇살이니.csv" />
+        <option value="$PROJECT_DIR$/etc/호출/호출.csv" />
+        <option value="$PROJECT_DIR$/etc/명사+동사/병에걸렸어.csv" />
+        <option value="$PROJECT_DIR$/명사/관계/부부.csv" />
+        <option value="$PROJECT_DIR$/명사/관계/형제.csv" />
+        <option value="$PROJECT_DIR$/명사/관계/연인.csv" />
+        <option value="$PROJECT_DIR$/명사/인물관계/부부.csv" />
+        <option value="$PROJECT_DIR$/명사/인물관계/엄마.csv" />
+        <option value="$PROJECT_DIR$/명사/인물관계/아빠.csv" />
+        <option value="$PROJECT_DIR$/명사/균계/균계.csv" />
+        <option value="$PROJECT_DIR$/명사/인물관계/연인.csv" />
+        <option value="$PROJECT_DIR$/명사/캐릭터/뽀로로.csv" />
+        <option value="$PROJECT_DIR$/명사/캐릭터/포켓몬.csv" />
         <option value="$PROJECT_DIR$/명사/체계/국가.csv" />
+        <option value="$PROJECT_DIR$/명사/인물관계/형제.csv" />
+        <option value="$PROJECT_DIR$/동사/행위/놀음.csv" />
+        <option value="$PROJECT_DIR$/script.py" />
       </list>
     </option>
   </component>
@@ -387,6 +386,11 @@
               <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="동사" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -399,7 +403,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557465159750" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557468382675" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -410,10 +414,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\Github\Data for Text Classification\명사\관계" />
-      <recent name="C:\Users\ASUS\Github\Data for Text Classification\명사\체계" />
-      <recent name="C:\Users\ASUS\Github\Data for Text Classification\명사\균계" />
-      <recent name="C:\Users\ASUS\Github\Data for Text Classification\명사" />
+      <recent name="C:\Users\ASUS\Github\Data for Text Classification\동사\행위" />
+      <recent name="C:\Users\ASUS\Github\Data for Text Classification\명사\생물" />
+      <recent name="C:\Users\ASUS\Github\Data for Text Classification\명사\인물관계" />
+      <recent name="C:\Users\ASUS\Github\Data for Text Classification\동사\부탁" />
+      <recent name="C:\Users\ASUS\Github\Data for Text Classification\동사\마음" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -485,17 +490,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557415217094</updated>
-      <workItem from="1557415220445" duration="13833000" />
+      <workItem from="1557415220445" duration="16609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13833000" />
+    <option name="totallyTimeSpent" value="16609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.115384616" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.115384616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -506,7 +512,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3293348" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3293348" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49786323" visible="true" weight="0.41036716" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49786323" visible="true" weight="0.3088553" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -547,215 +553,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/명사/동물/해충.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/병/병.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/장소/명소.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/대답/공감.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-862" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/대답/긍정.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-742" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/대답/부정.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/동사/식사/먹음.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/동사/식사/먹니.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/동사/식사/배고픔.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/동사/식사/배고프니.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/인사/반가움.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/댄스/댄스목적.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/맛집/맛집목적.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-982" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/명언/명언목적.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/알람/알람목적.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/체계/명절.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/체계/기념일.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/동사/고민/고민.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/동사/고민/선택.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/동사/고민/결정.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/동물/갑각류.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/동물/포유류.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/동물/어류.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/동물/연체동물.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/인공지능/인공지능용어.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/인공지능/인공지능친구.csv">
+    <entry file="file://$PROJECT_DIR$/명사/캐릭터/케로로.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
@@ -771,49 +569,269 @@
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/호출/호출.csv">
+    <entry file="file://$PROJECT_DIR$/명사/체계/언어.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/명사+동사/이름뭐니.csv">
+    <entry file="file://$PROJECT_DIR$/명사/체계/나이.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/목적/위키/위키.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/기업/기업.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/기업/웹사이트.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/크기.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/인간/신체.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/마음/감사하니.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/마음/감사함.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/마음/미안함.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/마음/미안하니.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/부탁/도와줘.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/부탁/해줘.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/앎/모름.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/앎/아니.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/위로/위로하니.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/호출/호출.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="900">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/명사+동사/나이몇살이니.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="930">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/명사+동사/병에걸렸어.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/되묻기/진위판별.csv">
+    <entry file="file://$PROJECT_DIR$/명사/인물관계/친척.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/인물관계/사람.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/인물관계/부부.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-712">
+          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/인물관계/부모.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="308">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/대답/거절.csv">
+    <entry file="file://$PROJECT_DIR$/명사/인물관계/엄마.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="68">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="428">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/명사/스포츠/스포츠.csv">
+    <entry file="file://$PROJECT_DIR$/명사/인물관계/오빠.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/인물관계/아빠.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="428">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/생물/갑각류.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/생물/생물.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/생물/균계.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/생물/꽃.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/생물/식물.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/인물관계/연인.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="308">
+          <caret line="146" column="12" lean-forward="true" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/인물관계/가족.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/인물관계/누나.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-240">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/캐릭터/캐릭터.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/캐릭터/뽀로로.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="330">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -823,99 +841,16 @@
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/명사/스포츠/스포츠대회.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/명사/캐릭터/디지몬.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/명사/장소/교실.csv">
+    <entry file="file://$PROJECT_DIR$/명사/캐릭터/포켓몬.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="10" lean-forward="true" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/장소/영화관.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/장소/법원.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-712">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/장소/식당.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/장소/병원.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-772">
-          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/장소/경기장.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="98">
-          <caret line="86" column="3" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="3" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/장소/상가.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#74#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_intent.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="104910">
-          <caret line="3572" column="10" lean-forward="true" selection-start-line="3572" selection-start-column="10" selection-end-line="3572" selection-end-column="10" />
+        <state relative-caret-position="308">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
@@ -924,58 +859,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/명사/체계/국가.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="428">
-          <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+        <state relative-caret-position="338">
+          <caret line="375" column="8" selection-start-line="375" selection-start-column="8" selection-end-line="375" selection-end-column="8" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/명사/인간/삶.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/인간/통과의례.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/인간/결혼.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/관계/형제.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/관계/부부.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/명사/관계/부모.csv">
+    <entry file="file://$PROJECT_DIR$/명사/체계/기념일.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-472">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/명사/관계/연인.csv">
+    <entry file="file://$PROJECT_DIR$/명사/사물/침대.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/자연/바다.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/명사/인물관계/형제.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="217">
+          <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_intent.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="439">
+          <caret line="4220" lean-forward="true" selection-end-line="4220" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/행위/놀음.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/칭찬/칭찬.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/행위/감.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동사/행위/연주.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="10" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" selection-start-line="24" selection-end-line="31" />
+          <folding>
+            <element signature="e#74#83#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

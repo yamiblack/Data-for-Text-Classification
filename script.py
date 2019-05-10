@@ -24,14 +24,11 @@ result.to_csv('train_intent.csv', index=None)
 data = result
 intent_mapping = {}
 
-idx = -1
 for q, i in data.values:
-    if i not in intent_mapping:
-        idx += 1
-    intent_mapping[i] = idx
+    intent_mapping[i] = 0
 
-for i in result.values:
-    print(i[1])
+for q, i in data.values:
+    intent_mapping[i] += 1
 
-for i, x in enumerate(intent_mapping):
+for i, x in enumerate(intent_mapping.items()):
     print(i, ' : ', x)
