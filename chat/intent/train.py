@@ -143,7 +143,7 @@ def create_graph(train=True):
                 padding="VALID",
                 name="conv")
 
-            h = tf.nn.relu(tf.nn.bias_add(conv, b_conv1), name="relu")
+            h = tf.nn.leaky_relu(tf.nn.bias_add(conv, b_conv1), name="relu")
             pooled = tf.nn.max_pool(h,
                                     ksize=[1, encode_length - filter_size + 1, 1, 1],
                                     strides=[1, 1, 1, 1],
