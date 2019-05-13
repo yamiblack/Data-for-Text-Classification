@@ -1009,7 +1009,7 @@
       <method v="2" />
     </configuration>
     <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data for Text Classification" />
+      <module name="Chatbot-Architecture" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -1031,7 +1031,7 @@
       <method v="2" />
     </configuration>
     <configuration name="script_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data for Text Classification" />
+      <module name="Chatbot-Architecture" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -1053,7 +1053,7 @@
       <method v="2" />
     </configuration>
     <configuration name="script_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data for Text Classification" />
+      <module name="Chatbot-Architecture" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -1075,7 +1075,7 @@
       <method v="2" />
     </configuration>
     <configuration name="script_train_doc2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data for Text Classification" />
+      <module name="Chatbot-Architecture" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
