@@ -50,7 +50,6 @@ if __name__ == '__main__':
         speech = input()
         speech = pre_process(speech)
         print("전처리 : ", speech)
-        # 전처리 세션
 
         intent = get_intent(speech)
         entity = None

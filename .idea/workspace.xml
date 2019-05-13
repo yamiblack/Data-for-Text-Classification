@@ -2,553 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e882595b-5a1b-4824-82f2-4cde0ced3b47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/crawler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/crawler/dust.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/crawler/issue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/crawler/news.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/crawler/restaurant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/crawler/translation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/crawler/weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/crawler/wiki.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/crawler/wise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/crawler/youtube.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/doc2vec/configs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/doc2vec/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/doc2vec/model_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/doc2vec/similarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/doc2vec/train_doc2vec.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/data/coNLL/kor/kor.train.iob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/data/crawler/pos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/data/processed/kor/char.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/data/processed/kor/chars.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/data/processed/kor/tags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/data/processed/kor/w2v.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/data/processed/kor/w2v3.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/data/processed/kor/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/entity_recognizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/data_crawler/mecab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/data_embed_model/build_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/data_embed_model/data_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/data_embed_model/model.vec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/data_embed_model/word2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/general_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/ner_model/lstmcrf_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/results/crf/events.out.tfevents.1553220388.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/results/crf/events.out.tfevents.1553220705.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/results/crf/events.out.tfevents.1553308854.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/results/crf/events.out.tfevents.1553325634.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/results/crf/events.out.tfevents.1553325740.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/results/crf/events.out.tfevents.1553328374.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/results/crf/events.out.tfevents.1553661371.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/results/crf/events.out.tfevents.1553674224.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/results/crf/events.out.tfevents.1553741163.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/news/train_entity.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/data/coNLL/kor/kor.train.iob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/data/crawler/pos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/data/processed/kor/char.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/data/processed/kor/chars.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/data/processed/kor/tags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/data/processed/kor/w2v.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/data/processed/kor/w2v3.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/data/processed/kor/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/entity_recognizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/data_crawler/mecab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/data_embed_model/build_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/data_embed_model/data_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/data_embed_model/model.vec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/data_embed_model/word2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/general_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/ner_model/lstmcrf_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/results/crf/events.out.tfevents.1553220388.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/results/crf/events.out.tfevents.1553220705.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/results/crf/events.out.tfevents.1553308854.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/results/crf/events.out.tfevents.1553325634.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/results/crf/events.out.tfevents.1553325740.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/results/crf/events.out.tfevents.1553328374.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/results/crf/events.out.tfevents.1553665199.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/restaurant/train_entity.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/data/coNLL/kor/kor.train.iob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/data/crawler/pos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/data/processed/kor/char.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/data/processed/kor/chars.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/data/processed/kor/tags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/data/processed/kor/w2v.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/data/processed/kor/w2v3.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/data/processed/kor/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/entity_recognizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/data_crawler/mecab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/data_embed_model/build_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/data_embed_model/data_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/data_embed_model/model.vec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/data_embed_model/word2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/general_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/ner_model/lstmcrf_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/results/crf/events.out.tfevents.1553220388.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/results/crf/events.out.tfevents.1553220705.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/results/crf/events.out.tfevents.1553308854.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/results/crf/events.out.tfevents.1553325475.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/results/crf/events.out.tfevents.1553325942.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/results/crf/events.out.tfevents.1553328373.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/results/crf/events.out.tfevents.1553661432.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/results/crf/events.out.tfevents.1554353620.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/results/crf/events.out.tfevents.1554353770.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/results/crf/events.out.tfevents.1554355189.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/song/train_entity.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/data/coNLL/kor/kor.train.iob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/data/crawler/pos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/data/processed/kor/char.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/data/processed/kor/chars.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/data/processed/kor/tags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/data/processed/kor/w2v.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/data/processed/kor/w2v3.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/data/processed/kor/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/entity_recognizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/data_crawler/mecab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/data_embed_model/build_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/data_embed_model/data_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/data_embed_model/model.vec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/data_embed_model/word2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/general_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/ner_model/lstmcrf_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/results/crf/events.out.tfevents.1553220388.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/results/crf/events.out.tfevents.1553220705.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/results/crf/events.out.tfevents.1553308854.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/results/crf/events.out.tfevents.1553325943.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/results/crf/events.out.tfevents.1553328373.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/results/crf/events.out.tfevents.1553661445.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/translate/train_entity.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/data/coNLL/kor/kor.train.iob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/data/crawler/pos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/data/processed/kor/char.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/data/processed/kor/chars.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/data/processed/kor/tags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/data/processed/kor/w2v.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/data/processed/kor/w2v3.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/data/processed/kor/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/entity_recognizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/data_crawler/mecab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/data_embed_model/build_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/data_embed_model/data_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/data_embed_model/model.vec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/data_embed_model/word2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/general_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/ner_model/lstmcrf_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/results/crf/events.out.tfevents.1553220388.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/results/crf/events.out.tfevents.1553220705.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/results/crf/events.out.tfevents.1553308854.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/results/crf/events.out.tfevents.1553328374.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/results/crf/events.out.tfevents.1553661358.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/results/crf/events.out.tfevents.1554353769.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/results/crf/events.out.tfevents.1554355199.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/weather/train_entity.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/data/coNLL/kor/kor.train.iob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/data/crawler/pos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/data/processed/kor/char.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/data/processed/kor/chars.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/data/processed/kor/tags.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/data/processed/kor/w2v.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/data/processed/kor/w2v3.trimmed.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/data/processed/kor/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/entity_recognizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/data_crawler/mecab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/data_embed_model/build_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/data_embed_model/data_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/data_embed_model/model.vec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/data_embed_model/word2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/general_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/ner_model/lstmcrf_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/results/crf/events.out.tfevents.1553220388.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/results/crf/events.out.tfevents.1553220705.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/results/crf/events.out.tfevents.1553308854.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/results/crf/events.out.tfevents.1553325634.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/results/crf/events.out.tfevents.1553325740.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/results/crf/events.out.tfevents.1553328374.DESKTOP-7N91TGT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/results/crf/events.out.tfevents.1553660966.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/results/crf/events.out.tfevents.1553661850.MYCOM1-PC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/entity/wiki/train_entity.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/configs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/날씨.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/날짜.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/농담.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/뉴스.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/댄스.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/맛집.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/먼지.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/메모.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/명언.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/번역.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/시간.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/알람.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/와이파이.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/위키.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/음악.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/이슈.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/인물.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data/잘못들음.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/data_report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/preprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/intent/train_intent.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/util/hanspell/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/util/hanspell/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/util/hanspell/response.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/util/hanspell/spell_checker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/util/tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/동사/행위/만드니.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/동사/행위/만듬.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/동사/행위/연주하니.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/동사/행위/움직이니.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/동사/행위/움직임.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/동사/협박/협박.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/사물/사물.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/생물/생물.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/생물/식물.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/스포츠/수영.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/스포츠/야구.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/악기/악기.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/악기/타악기.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/예술/만화.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/예술/미술.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/예술/영화.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/예술/음악.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/음료/물.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/의류/악세사리.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/인간/사랑.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/인간/생각.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/인간/신체.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/인간/우정.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/인간/인생.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/인간/죽음.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/인간/통과의례.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/자연/바위.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/자연/자연.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/직업/학생.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/체계/나이.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/체계/도시.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/명사/체계/우주.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script_train_doc2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script_train_intent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/대답/거절.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/거절.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/대답/거절.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/거절.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/대답/공감.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/공감.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/대답/공감.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/공감.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/대답/긍정.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/긍정.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/대답/긍정.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/긍정.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/대답/부정.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/부정.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/대답/부정.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/부정.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/대답/비난.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/비난.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/대답/비난.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/비난.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/되묻기/진위판별.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/되묻기/진위판별.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/되묻기/진위판별.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/되묻기/진위판별.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/의성어/감탄.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/의성어/감탄.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/의성어/감탄.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/의성어/감탄.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/반가움.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/반가움.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/반가움.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/반가움.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/아침인사.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/아침인사.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/아침인사.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/아침인사.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/안부.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/안부.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/안부.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/안부.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/인사.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/인사.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/인사.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/인사.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/저녁인사.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/저녁인사.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/저녁인사.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/저녁인사.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/취침인사.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/취침인사.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/인사/취침인사.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/취침인사.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/나이몇살이니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/나이몇살이니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/나이몇살이니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/나이몇살이니.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/넌뭘먹고사니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/넌뭘먹고사니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/넌뭘먹고사니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/넌뭘먹고사니.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/무슨게임이좋니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨게임이좋니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/무슨게임이좋니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨게임이좋니.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/무슨만화가좋니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨만화가좋니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/무슨만화가좋니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨만화가좋니.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/무슨색이좋니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨색이좋니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/무슨색이좋니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨색이좋니.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/무슨영화가좋니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨영화가좋니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/무슨영화가좋니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨영화가좋니.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/무슨음식이좋니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨음식이좋니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/무슨음식이좋니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨음식이좋니.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/병에걸렸어.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/병에걸렸어.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/상관없어.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/상관없어.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/셍일이언제니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/셍일이언제니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/언제잘거니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/언제잘거니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/이름뭐니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/이름뭐니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/자주묻는질문/직업이뭐니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/직업이뭐니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/호출/호출.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/호출/호출.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_intent.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/doc2vec/test_doc2vec.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/기분나쁘니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/기분나쁘니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/기분나쁨.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/기분나쁨.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/기분좋니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/기분좋니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/기분좋음.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/기분좋음.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/놀람.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/놀람.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/놀랐니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/놀랐니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/묘하니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/묘하니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/묘함.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/묘함.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/삐졌니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/삐졌니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/삐짐.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/삐짐.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/슬프니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/슬프니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/슬픔.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/슬픔.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/실망.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/실망.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/실망했니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/실망했니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/우울.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/우울.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/우울하니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/우울하니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/절망.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/절망.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/절망했니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/절망했니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/짜증.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/짜증.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/짜증나니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/짜증나니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/행복.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/행복.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/행복하니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/행복하니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/화남.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/화남.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/감정/화났니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/화났니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/권유/권유함.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/권유/권유함.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/권유/제안함.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/권유/제안함.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/권유/추천하니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/권유/추천하니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/권유/추천함.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/권유/추천함.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/권유/추천해줘.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/권유/추천해줘.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/마음/감사하니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/마음/감사하니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/마음/감사함.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/마음/감사함.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/마음/미안하니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/마음/미안함.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/마음/힘드니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/news/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/마음/힘듦.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/몸상태/간지러움.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/몸상태/간지러움.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/몸상태/아프니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/data_crawler/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/몸상태/아픔.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/몸상태/아픔.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/부탁/도와줘.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/부탁/도와줘.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/부탁/해줘.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/data_embed_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/생각/결정.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/news/kor_model/ner_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/생각/고민.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/생각/고민.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/생각/선택.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/restaurant/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/소유/가지니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/소유/가지니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/소유/가짐.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/소유/가짐.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/소유/버림.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/소유/버림.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/소유/잃니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/소유/잃음.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/data_crawler/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/시간/과거.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/시간/과거.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/시간/과거질문.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/시간/과거질문.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/시간/미래.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/시간/미래.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/시간/미래질문.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/시간/미래질문.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/시간/현재 질문.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/data_embed_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/시간/현재.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/시간/현재.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/식사/맛없냐.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/restaurant/kor_model/ner_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/식사/맛없음.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/song/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/식사/맛있니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/식사/맛있음.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/data_crawler/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/식사/먹니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/식사/먹니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/식사/먹음.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/식사/먹음.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/식사/배고프니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/식사/배고프니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/식사/배고픔.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/식사/배고픔.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/싸움/때리니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/싸움/때리니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/싸움/때림.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/싸움/때림.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/싸움/맞음.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/data_embed_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/싸움/싸움.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/song/kor_model/ner_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/앎/모르니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/앎/모르니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/앎/모름.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/앎/모름.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/앎/아니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/앎/아니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/앎/앎.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/앎/앎.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/위로/위로하니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/translate/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/위로/위로함.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/위로/위로함.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/위로/위로해줘.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/위로/위로해줘.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/유무/없니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/유무/없니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/유무/없어.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/유무/있니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/유무/있니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/유무/있어.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/data_crawler/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/음성/말함.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/data_embed_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/질문/누구니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/질문/누구니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/질문/뭐해.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/질문/뭐해.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/축하/축하함.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/translate/kor_model/ner_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/축하/축하해줘.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/weather/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/칭찬/칭찬.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/크기/작니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/data_crawler/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/크기/작음.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/data_embed_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/크기/크니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/weather/kor_model/ner_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/크기/크다.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/wiki/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/행위/가니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/행위/감.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/행위/감.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/행위/노니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/data_crawler/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/행위/놀음.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/행위/놀음.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/행위/만드니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/data_embed_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/행위/만듬.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/entity/wiki/kor_model/ner_model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/행위/연주.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/행위/연주.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/행위/연주하니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/util/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/행위/움직이니.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/마음/미안하니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/행위/움직임.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/마음/미안함.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동사/협박/협박.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/마음/힘드니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/미분류/기업.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/미분류/기업.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/미분류/웹사이트.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/미분류/웹사이트.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사물/IT기기.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/사물/IT기기.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사물/가구.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/사물/가구.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사물/사물.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/마음/힘듦.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사물/인형.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/사물/인형.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사물/자동차.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/사물/자동차.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사물/장난감.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/사물/장난감.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사물/전자제품.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/사물/전자제품.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사물/침대.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/사물/침대.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/사물/티비.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/사물/티비.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/갑각류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/갑각류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/강아지.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/강아지.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/고양이.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/고양이.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/곤충벌레.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/곤충벌레.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/공룡.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/공룡.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/균계.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/균계.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/꽃.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/꽃.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/나무.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/나무.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/돼지.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/돼지.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/버섯.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/버섯.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/상상의동물.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/상상의동물.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/생물.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/몸상태/아프니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/식물.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/부탁/해줘.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/양서류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/양서류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/어류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/어류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/연체동물.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/연체동물.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/조류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/조류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/파충류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/파충류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/펭귄.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/펭귄.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/포유류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/포유류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/생물/해충.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/생물/해충.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/스포츠/농구.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/스포츠/농구.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/스포츠/무술.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/스포츠/무술.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/스포츠/수영.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/생각/결정.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/스포츠/스포츠.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/스포츠/스포츠.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/스포츠/야구.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/생각/선택.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/스포츠/육상.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/스포츠/육상.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/스포츠/축구.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/스포츠/축구.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/악기/관악기.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/악기/관악기.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/악기/악기.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/소유/잃니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/악기/타악기.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/소유/잃음.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/악기/현악기.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/악기/현악기.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/예술/만화.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/시간/현재 질문.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/예술/문학.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/예술/문학.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/예술/미술.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/식사/맛없냐.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/예술/영화.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/식사/맛없음.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/예술/음악.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/식사/맛있니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음료/물.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/식사/맛있음.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음료/음료.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음료/음료.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음료/쥬스.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음료/쥬스.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음료/커피.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음료/커피.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/간식.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음식/간식.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/고기.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음식/고기.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/과일.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음식/과일.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/떡볶이.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음식/떡볶이.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/면음식.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음식/면음식.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/음식.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음식/음식.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/치킨.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음식/치킨.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/케이크.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음식/케이크.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/피자.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음식/피자.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/음식/햄버거.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/음식/햄버거.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/의류/신발.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/의류/신발.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/의류/악세사리.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/싸움/맞음.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/의류/의류.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/의류/의류.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인간/결혼.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인간/결혼.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인간/사랑.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/싸움/싸움.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인간/생각.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/위로/위로하니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인간/신체.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/유무/없어.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인간/우정.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/유무/있어.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인간/인생.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/음성/말함.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인간/죽음.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/축하/축하함.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인간/통과의례.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/축하/축하해줘.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인공지능/인공지능용어.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인공지능/인공지능용어.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인공지능/인공지능친구.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인공지능/인공지능친구.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/가족.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/가족.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/누나.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/누나.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/부모.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/부모.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/부부.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/부부.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/사람.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/사람.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/아빠.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/아빠.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/엄마.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/엄마.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/연인.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/연인.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/오빠.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/오빠.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/친구.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/친구.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/친척.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/친척.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/인물관계/형제.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/인물관계/형제.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/자연/바다.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/자연/바다.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/자연/바위.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/칭찬/칭찬.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/자연/자연.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/크기/작니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/자연/태양.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/자연/태양.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/경기장.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/경기장.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/공원.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/공원.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/교실.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/교실.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/교회.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/교회.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/명소.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/명소.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/법원.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/법원.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/병원.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/병원.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/상가.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/상가.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/식당.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/식당.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/영화관.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/영화관.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/학교.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/학교.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/장소/학원.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/장소/학원.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/가수.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/가수.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/간호사.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/간호사.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/검사.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/검사.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/경찰.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/경찰.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/공무원.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/공무원.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/과학자.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/과학자.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/대통령.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/대통령.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/변호사.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/변호사.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/선생님.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/선생님.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/소방관.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/소방관.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/연예인.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/연예인.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/요리사.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/요리사.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/운동선수.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/운동선수.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/의사.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/의사.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/작가.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/작가.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/정치인.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/정치인.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/직업.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/직업.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/판사.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/판사.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/학생.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/크기/작음.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/직업/화가.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/직업/화가.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/질병/질병.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/질병/질병.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/체계/기념일.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/체계/기념일.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/체계/나이.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/크기/크니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/체계/날짜.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/체계/날짜.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/체계/도시.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/크기/크다.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/체계/돈.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/체계/돈.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/체계/명절.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/체계/명절.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/체계/색깔.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/체계/색깔.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/체계/수.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/체계/수.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/체계/언어국가.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/체계/언어국가.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/체계/우주.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/행위/가니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/체계/지역.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/체계/지역.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/캐릭터/디지몬.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/캐릭터/디지몬.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/캐릭터/만화.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/캐릭터/만화.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/캐릭터/포켓몬.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/캐릭터/포켓몬.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/학업/숙제.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/학업/숙제.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/학업/책.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/학업/책.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명사/학업/필기구.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/명사/학업/필기구.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/날씨/날씨목적.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/농담/농담목적.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/뉴스/뉴스목적.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/댄스/댄스목적.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/맛집/맛집목적.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/명언/명언목적.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/문맥전환/날씨to먼지.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/문맥전환/먼지to날씨.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/미세먼지/미세먼지목적.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/행위/노니.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/볼륨/볼륨다운목적.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/intent/data/볼륨다운.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/볼륨/볼륨업목적.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/intent/data/볼륨업.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/심심/심심목적.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/심심/심심.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/알람/알람목적.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/위키/위키목적.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/이슈/이슈목적.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/잘못들음/잘못들음목적.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/통신/네트워크목적.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/목적/통신/블루투스목적.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/intent/data/블루투스.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/식사/배고픔.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/식사/배고픔.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/script_main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -558,6 +13,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Data_for_Text_Classification$script.coverage" NAME="script Coverage Results" MODIFIED="1557721884926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Chatbot_Architecture$script_train_intent.coverage" NAME="script_train_intent Coverage Results" MODIFIED="1557731017689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Chatbot_Architecture$script_main.coverage" NAME="script_main Coverage Results" MODIFIED="1557731567368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_for_Text_Classification$script_train_doc2vec.coverage" NAME="script_train_doc2vec Coverage Results" MODIFIED="1557728806389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_for_Text_Classification$script_main.coverage" NAME="script_main Coverage Results" MODIFIED="1557729248984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_for_Text_Classification$script_data.coverage" NAME="script_data Coverage Results" MODIFIED="1557728150441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -590,17 +47,52 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="36050142">
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSV" value="45" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="1" />
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-450">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="301">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
               <folding>
                 <element signature="e#74#88#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/동사/식사/배고픔.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
+          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script_train_intent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -619,8 +111,8 @@
             <state showInfoPanel="true" rowLines="3" />
           </provider>
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-2930">
-              <caret line="4434" column="10" lean-forward="true" selection-start-line="4434" selection-start-column="10" selection-end-line="4434" selection-end-column="10" />
+            <state relative-caret-position="133020">
+              <caret line="4434" column="10" selection-start-line="4434" selection-start-column="10" selection-end-line="4434" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -641,16 +133,6 @@
           <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/동사/앎/아니.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-2440" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script_data.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -661,19 +143,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/doc2vec/configs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
+        <entry file="file://$PROJECT_DIR$/data/동사/앎/아니.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" rowLines="3" />
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script_train_doc2vec.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="171">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -681,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat/doc2vec/model_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="900">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#74#83#0" expanded="true" />
               </folding>
@@ -781,7 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/명사/직업/판사.csv" />
         <option value="$PROJECT_DIR$/명사/직업/변호사.csv" />
         <option value="$PROJECT_DIR$/명사/직업/검사.csv" />
         <option value="$PROJECT_DIR$/명사/직업/요리사.csv" />
@@ -832,6 +307,7 @@
         <option value="$PROJECT_DIR$/chat/doc2vec/configs.py" />
         <option value="$PROJECT_DIR$/chat/doc2vec/model_train.py" />
         <option value="$PROJECT_DIR$/script_main.py" />
+        <option value="$PROJECT_DIR$/data/동사/식사/배고픔.csv" />
       </list>
     </option>
   </component>
@@ -853,99 +329,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="감정" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="권유" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="마음" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="몸상태" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="부탁" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="생각" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="소유" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="심심" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="싸움" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data for Text Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data for Text Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="앎" type="462c0819:PsiDirectoryNode" />
+              <item name="식사" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -953,7 +366,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557729420272" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557731391178" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chatbot Architecture" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1096,15 +509,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="script_train_intent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Chatbot-Architecture" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script_train_intent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="Chatbot-Architecture" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.script" />
       <item itemvalue="Python.script_main" />
       <item itemvalue="Python.script_train_doc2vec" />
       <item itemvalue="Python.script_data" />
+      <item itemvalue="Python.script_train_intent" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.script_main" />
+        <item itemvalue="Python.script_train_intent" />
         <item itemvalue="Python.script_train_doc2vec" />
         <item itemvalue="Python.script_data" />
         <item itemvalue="Python.script" />
@@ -1127,13 +579,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76452000" />
+    <option name="totallyTimeSpent" value="77697000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="30" width="974" height="1057" extended-state="0" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23736264" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.115384616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1144,7 +596,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3293348" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49786323" visible="true" weight="0.35877863" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49786323" visible="true" weight="0.49784017" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1185,289 +637,40 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/무슨게임이좋니.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/인사/반가움.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/인사/안부.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/병에걸렸어.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/무슨게임이좋니.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" selection-start-line="9" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/무슨만화가좋니.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="8" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/무슨색이좋니.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="45" column="1" selection-start-line="8" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/무슨영화가좋니.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" selection-start-line="8" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/무슨음식이좋니.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" selection-start-line="8" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/인사/아침인사.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/인사/반가움.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/인사/안부.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-280" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/인사/인사.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="780">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/인사/저녁인사.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/인사/취침인사.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/대답/거절.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-2131">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/날씨/날씨목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="209">
-          <caret line="151" column="15" lean-forward="true" selection-end-line="156" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/맛집/맛집목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="299">
-          <caret line="85" column="17" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/미세먼지/미세먼지목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/문맥전환/먼지to날씨.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/위키/위키목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="359">
-          <caret line="97" lean-forward="true" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/알람/알람목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="479">
-          <caret line="219" column="10" selection-end-line="220" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/통신/네트워크목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-661" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/통신/블루투스목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/명언/명언목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-601" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/댄스/댄스목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1561">
-          <caret line="9" column="13" lean-forward="true" selection-end-line="73" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/뉴스/뉴스목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="89">
-          <caret line="132" column="15" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/잘못들음/잘못들음목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="299">
-          <caret line="34" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/이슈/이슈목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="329">
-          <caret line="93" column="16" lean-forward="true" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/볼륨/볼륨다운목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="179">
-          <caret line="43" column="6" lean-forward="true" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/나이몇살이니.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/농담/농담목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1441" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/목적/심심/심심목적.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="9" lean-forward="true" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_intent.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-55620" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/인사/반가움.json" />
+    <entry file="file://$PROJECT_DIR$/etc/인사/안부.json" />
+    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/병에걸렸어.csv" />
+    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/무슨게임이좋니.json" />
+    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/무슨만화가좋니.json" />
+    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/무슨색이좋니.json" />
+    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/무슨영화가좋니.json" />
+    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/무슨음식이좋니.json" />
+    <entry file="file://$PROJECT_DIR$/etc/인사/아침인사.json" />
+    <entry file="file://$PROJECT_DIR$/etc/인사/반가움.csv" />
+    <entry file="file://$PROJECT_DIR$/etc/인사/안부.csv" />
+    <entry file="file://$PROJECT_DIR$/etc/인사/인사.csv" />
+    <entry file="file://$PROJECT_DIR$/etc/인사/저녁인사.csv" />
+    <entry file="file://$PROJECT_DIR$/etc/인사/취침인사.csv" />
+    <entry file="file://$PROJECT_DIR$/etc/대답/거절.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/날씨/날씨목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/맛집/맛집목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/미세먼지/미세먼지목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/문맥전환/먼지to날씨.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/위키/위키목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/알람/알람목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/통신/네트워크목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/통신/블루투스목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/명언/명언목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/댄스/댄스목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/뉴스/뉴스목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/잘못들음/잘못들음목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/이슈/이슈목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/볼륨/볼륨다운목적.csv" />
+    <entry file="file://$PROJECT_DIR$/etc/자주묻는질문/나이몇살이니.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/농담/농담목적.csv" />
+    <entry file="file://$PROJECT_DIR$/목적/심심/심심목적.csv" />
+    <entry file="file://$PROJECT_DIR$/script.py" />
+    <entry file="file://$PROJECT_DIR$/train_intent.csv" />
     <entry file="file://C:/Program Files/Python/Lib/os.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1493,9 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script_train_intent.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat/doc2vec/data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1503,16 +703,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat/doc2vec/configs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="330">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
@@ -1526,20 +719,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/doc2vec/model_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="900">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#74#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#74#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1555,8 +738,8 @@
         <state showInfoPanel="true" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-2930">
-          <caret line="4434" column="10" lean-forward="true" selection-start-line="4434" selection-start-column="10" selection-end-line="4434" selection-end-column="10" />
+        <state relative-caret-position="133020">
+          <caret line="4434" column="10" selection-start-line="4434" selection-start-column="10" selection-end-line="4434" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1577,7 +760,43 @@
         <state showInfoPanel="true" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-2440" />
+        <state relative-caret-position="171">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_train_intent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+          <folding>
+            <element signature="e#74#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/동사/식사/배고픔.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
       </provider>
     </entry>
   </component>
@@ -1633,7 +852,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Data for Text Classification</last-edited>
+          <last-edited>Chatbot-Architecture</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
