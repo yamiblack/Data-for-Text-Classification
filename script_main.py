@@ -56,8 +56,8 @@ if __name__ == '__main__':
         print('의도 : ' + intent)
         if intent != '폴백':
             entity = get_entity(intent, speech)
-        # else:
-        #     intent = get_similarity(speech)
+        else:
+            intent = get_similarity(speech)
         print('의도 : ' + intent)
 
         if entity is not None:
