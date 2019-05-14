@@ -123,12 +123,13 @@ def exception(text):
     for key, val in spell_dict.items():
         if key in text:
             return text.replace(key, val)
+    return text
 
 
 def fix(text):
     if text is not None:
         result = check(text)
         result.as_dict()  # dict로 출력
-        result = exception(result[2])
-        return result
+        answer = exception(result[2])
+        return answer
     return text
