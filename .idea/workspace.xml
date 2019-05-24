@@ -2,29 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e882595b-5a1b-4824-82f2-4cde0ced3b47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/금요일.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/나사랑하니.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/밥먹었니.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/시간이없어.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/어디어디.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/여행왔어.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/왜그렇지않니.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/월요일.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/동사/식사/먹고싶음.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/목적/시선.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script_json.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/doc2vec/configs.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/doc2vec/configs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat/doc2vec/test_doc2vec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/doc2vec/test_doc2vec.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat/doc2vec/train_doc2vec.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/doc2vec/train_doc2vec.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/intent/train_intent.csv" beforeDir="false" afterPath="$PROJECT_DIR$/chat/intent/train_intent.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/util/hanspell/spell_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/util/hanspell/spell_checker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/etc/의성어/감탄.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/etc/의성어/감탄.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/동사/감정/놀람.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/놀람.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/동사/시간/미래질문.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/시간/미래질문.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/동사/식사/배고픔.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/식사/배고픔.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/동사/음성/말함.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/음성/말함.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/대답/거절.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/거절.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/대답/공감.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/공감.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/대답/긍정.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/긍정.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/대답/부정.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/부정.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/대답/비난.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/대답/비난.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/되묻기/진위판별.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/되묻기/진위판별.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/인사/반가움.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/반가움.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/인사/아침인사.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/아침인사.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/인사/안부.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/인사/인사.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/인사.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/인사/저녁인사.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/저녁인사.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/인사/취침인사.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/인사/취침인사.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/나이몇살이니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/나이몇살이니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/넌뭘먹고사니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/넌뭘먹고사니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨게임이좋니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨게임이좋니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨만화가좋니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨만화가좋니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨색이좋니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨색이좋니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨영화가좋니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨영화가좋니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨음식이좋니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/무슨음식이좋니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/밥먹었니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/밥먹었니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/병에걸렸어.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/병에걸렸어.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/상관없어.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/상관없어.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/시간이없어.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/시간이없어.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/언제잘거니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/언제잘거니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/여행왔어.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/여행왔어.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/월요일.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/월요일.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/이름뭐니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/이름뭐니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/자주묻는질문/직업이뭐니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/자주묻는질문/직업이뭐니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/etc/호출/호출.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/etc/호출/호출.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/기분나쁘니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/기분나쁘니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/기분나쁨.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/기분나쁨.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/기분좋니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/기분좋니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/기분좋음.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/기분좋음.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/놀람.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/놀람.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/놀랐니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/놀랐니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/묘하니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/묘하니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/묘함.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/묘함.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/삐졌니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/삐졌니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/삐짐.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/삐짐.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/슬프니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/슬프니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/슬픔.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/슬픔.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/실망.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/실망.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/실망했니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/실망했니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/우울.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/우울.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/우울하니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/우울하니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/절망.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/절망.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/절망했니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/절망했니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/짜증.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/짜증.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/짜증나니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/짜증나니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/행복하니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/행복하니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/화남.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/화남.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/감정/화났니.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/감정/화났니.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/권유/권유함.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/권유/권유함.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/동사/권유/추천함.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/동사/권유/추천함.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +74,14 @@
     <SUITE FILE_PATH="coverage/Chatbot_Architecture$script_train_intent.coverage" NAME="script_train_intent Coverage Results" MODIFIED="1557804944735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Chatbot_Architecture$script_main.coverage" NAME="script_main Coverage Results" MODIFIED="1557810377373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_for_Text_Classification$script_main.coverage" NAME="script_main Coverage Results" MODIFIED="1557729248984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Chatbot_Architecture$script_train_doc2vec.coverage" NAME="script_train_doc2vec Coverage Results" MODIFIED="1557807598737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Chatbot_Architecture$script_json.coverage" NAME="script_json Coverage Results" MODIFIED="1558704225652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Chatbot_Architecture$script_train_doc2vec.coverage" NAME="script_train_doc2vec Coverage Results" MODIFIED="1558387885713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Chatbot_Architecture$script.coverage" NAME="script Coverage Results" MODIFIED="1558692512133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Chatbot_Architecture$train.coverage" NAME="train Coverage Results" MODIFIED="1557804939436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chat/intent" />
     <SUITE FILE_PATH="coverage/Chatbot_Architecture$data.coverage" NAME="data Coverage Results" MODIFIED="1557804926177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chat/intent" />
-    <SUITE FILE_PATH="coverage/Chatbot_Architecture$script_data.coverage" NAME="script_data Coverage Results" MODIFIED="1557811755638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Chatbot_Architecture$script_data.coverage" NAME="script_data Coverage Results" MODIFIED="1558672139332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_for_Text_Classification$script_train_doc2vec.coverage" NAME="script_train_doc2vec Coverage Results" MODIFIED="1557728806389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Chatbot_Architecture$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1558535796648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_for_Text_Classification$script_data.coverage" NAME="script_data Coverage Results" MODIFIED="1557728150441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Chatbot_Architecture$spell_checker.coverage" NAME="spell_checker Coverage Results" MODIFIED="1557803453499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chat/util/hanspell" />
   </component>
@@ -79,18 +117,32 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="2721" />
-          <entry key="JSON" value="41" />
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="1063" />
+          <entry key="JSON" value="211" />
+          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="Python" value="2448" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="139" />
-          <entry key="JSON" value="8" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="65" />
+          <entry key="C++" value="1" />
+          <entry key="CSV" value="145" />
+          <entry key="JSON" value="90" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="79" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -98,30 +150,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/동사/시간/현재 질문.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/동사/식사/맛있니.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/월요일.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <entry file="file://$PROJECT_DIR$/script_json.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="33" />
+              <folding>
+                <element signature="e#75#84#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/etc/인사/반가움.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/etc/인사/아침인사.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-750">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/etc/대답/비난.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-420">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/etc/되묻기/진위판별.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/etc/인사/인사.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/etc/인사/저녁인사.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-841" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/etc/인사/취침인사.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-783" />
           </provider>
         </entry>
       </file>
@@ -130,56 +225,16 @@
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" rowLines="3" />
           </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/무슨만화가좋니.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/동사/감정/놀람.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="451">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/어디어디.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/왜그렇지않니.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
           <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/동사/시간/과거질문.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
+        <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/나이몇살이니.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-93">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
           </provider>
-          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
     </leaf>
@@ -196,8 +251,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>:</find>
-      <find>구매</find>
       <find>,선풍기</find>
       <find>저넉</find>
       <find>고 싶</find>
@@ -226,6 +279,8 @@
       <find>,감탄</find>
       <find>세상</find>
       <find>어마나</find>
+      <find>,\</find>
+      <find>,</find>
     </findStrings>
     <replaceStrings>
       <replace>맛집</replace>
@@ -273,57 +328,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/목적/알람/알람목적.csv" />
+        <option value="$PROJECT_DIR$/data/동사/감정/화남.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/행복하니.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/짜증나니.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/짜증.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/절망했니.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/절망.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/우울하니.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/우울.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/실망했니.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/실망.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/슬픔.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/슬프니.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/묘함.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/놀랐니.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/놀람.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/기분좋음.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/기분좋니.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/기분나쁨.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/기분나쁘니.json" />
+        <option value="$PROJECT_DIR$/data/etc/호출/호출.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/직업이뭐니.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/이름뭐니.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/월요일.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/여행왔어.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/언제잘거니.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/시간이없어.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/상관없어.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/병에걸렸어.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/밥먹었니.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/무슨음식이좋니.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/무슨영화가좋니.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/무슨색이좋니.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/무슨만화가좋니.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/무슨게임이좋니.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/넌뭘먹고사니.json" />
+        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/나이몇살이니.json" />
+        <option value="$PROJECT_DIR$/data/etc/대답/부정.json" />
+        <option value="$PROJECT_DIR$/data/etc/대답/긍정.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/삐짐.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/삐졌니.json" />
+        <option value="$PROJECT_DIR$/data/동사/감정/묘하니.json" />
+        <option value="$PROJECT_DIR$/data/etc/인사/아침인사.json" />
         <option value="$PROJECT_DIR$/script.py" />
-        <option value="$PROJECT_DIR$/chat/doc2vec/model_train.py" />
-        <option value="$PROJECT_DIR$/data/동사/식사/맛있음.csv" />
-        <option value="$PROJECT_DIR$/data/동사/식사/맛있니.csv" />
-        <option value="$PROJECT_DIR$/data/명사/체계/기념일.csv" />
-        <option value="$PROJECT_DIR$/data/명사/음식/간식.csv" />
-        <option value="$PROJECT_DIR$/data/명사/스포츠/스포츠.csv" />
-        <option value="$PROJECT_DIR$/data/동사/생각/고민.csv" />
-        <option value="$PROJECT_DIR$/data/etc/인사/저녁인사.json" />
-        <option value="$PROJECT_DIR$/data/etc/인사/취침인사.json" />
-        <option value="$USER_HOME$/Desktop/social-robot-bao-export (1).json" />
-        <option value="$PROJECT_DIR$/chat/intent/train.py" />
-        <option value="$PROJECT_DIR$/chat/intent/data/날씨s.csv" />
-        <option value="$PROJECT_DIR$/chat/intent/data/날씨.csv" />
-        <option value="$PROJECT_DIR$/chat/intent/data/날짜.csv" />
-        <option value="$PROJECT_DIR$/chat/intent/data/음악.csv" />
-        <option value="$PROJECT_DIR$/chat/intent/data/농담.csv" />
-        <option value="$PROJECT_DIR$/chat/intent/data/뉴스.csv" />
-        <option value="$PROJECT_DIR$/chat/intent/data/먼지.csv" />
-        <option value="$PROJECT_DIR$/chat/intent/data/위키.csv" />
-        <option value="$PROJECT_DIR$/chat/intent/data/이슈.csv" />
-        <option value="$PROJECT_DIR$/chat/intent/data/번역.csv" />
-        <option value="$PROJECT_DIR$/chat/intent/data/인물.csv" />
-        <option value="$PROJECT_DIR$/chat/intent/configs.py" />
-        <option value="$PROJECT_DIR$/chat/util/hanspell/temp.py" />
-        <option value="$PROJECT_DIR$/chat/util/hanspell/spell_dict.py" />
-        <option value="$PROJECT_DIR$/chat/util/hanspell/spell_dict.csv" />
-        <option value="$PROJECT_DIR$/temp.py" />
-        <option value="$PROJECT_DIR$/chat/intent/data/맛집.csv" />
-        <option value="$PROJECT_DIR$/data/명사/사물/IT기기.csv" />
-        <option value="$PROJECT_DIR$/data/명사/사물/전자제품.csv" />
-        <option value="$PROJECT_DIR$/data/명사/예술/미술.csv" />
-        <option value="$PROJECT_DIR$/script_data.py" />
-        <option value="$PROJECT_DIR$/chat/intent/data.py" />
-        <option value="$PROJECT_DIR$/script_main.py" />
-        <option value="$PROJECT_DIR$/chat/util/hanspell/spell_checker.py" />
-        <option value="$PROJECT_DIR$/data/동사/식사/배고픔.csv" />
-        <option value="$PROJECT_DIR$/chat/doc2vec/configs.py" />
-        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/밥먹었니.csv" />
-        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/여행왔어.csv" />
-        <option value="$PROJECT_DIR$/data/동사/음성/말함.csv" />
-        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/시간이없어.csv" />
-        <option value="$PROJECT_DIR$/data/목적/시선.csv" />
-        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/나사랑하니.csv" />
-        <option value="$PROJECT_DIR$/data/동사/식사/먹고싶음.csv" />
-        <option value="$PROJECT_DIR$/data/동사/시간/미래질문.csv" />
-        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/금요일.csv" />
-        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/어디어디.csv" />
-        <option value="$PROJECT_DIR$/data/etc/자주묻는질문/월요일.csv" />
-        <option value="$PROJECT_DIR$/data/동사/감정/놀람.csv" />
+        <option value="$PROJECT_DIR$/data/etc/인사/반가움.json" />
+        <option value="$PROJECT_DIR$/data/etc/대답/공감.json" />
+        <option value="$PROJECT_DIR$/data/etc/대답/비난.json" />
+        <option value="$PROJECT_DIR$/data/etc/대답/거절.json" />
+        <option value="$USER_HOME$/Desktop/social-robot-bao-export.json" />
+        <option value="$PROJECT_DIR$/script_json.py" />
+        <option value="$PROJECT_DIR$/data/etc/되묻기/진위판별.json" />
+        <option value="$PROJECT_DIR$/data/etc/인사/인사.json" />
       </list>
     </option>
   </component>
@@ -340,9 +395,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="22" />
-    <option name="width" value="974" />
+    <option name="x" value="-7" />
+    <option name="y" value="30" />
+    <option name="width" value="1044" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -362,17 +417,6 @@
             <path>
               <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-              <item name="doc2vec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,6 +424,27 @@
               <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="etc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+              <item name="대답" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+              <item name="되묻기" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+              <item name="인사" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
@@ -401,51 +466,6 @@
               <item name="동사" type="462c0819:PsiDirectoryNode" />
               <item name="감정" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="시간" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="식사" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="싸움" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="유무" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="동사" type="462c0819:PsiDirectoryNode" />
-              <item name="음성" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chatbot-Architecture" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="목적" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chatbot-Architecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -457,14 +477,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557813782085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558704392335" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chatbot Architecture" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="background.image.plus" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -494,7 +514,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.script_data">
+  <component name="RunManager" selected="Python.script_json">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -511,6 +531,50 @@
       <setting name="port" value="0" />
       <setting name="replType" value="0" />
       <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Chatbot-Architecture" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Chatbot-Architecture" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ASUS\Github\Chatbot-Architecture\script_json.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="script_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -535,7 +599,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="script_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Chatbot-Architecture" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -548,7 +612,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script_json.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -579,79 +643,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="script_train_intent" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Chatbot-Architecture" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script_train_intent.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Chatbot-Architecture" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chat/intent" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chat/intent/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="Chatbot-Architecture" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.script_train_intent" />
-      <item itemvalue="Python.train" />
       <item itemvalue="Python.script_data" />
       <item itemvalue="Python.script_train_doc2vec" />
-      <item itemvalue="Python.script_main" />
+      <item itemvalue="Python.mnist" />
+      <item itemvalue="Python.script" />
+      <item itemvalue="Python.script_json" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.script_json" />
+        <item itemvalue="Python.script" />
         <item itemvalue="Python.script_data" />
-        <item itemvalue="Python.script_main" />
+        <item itemvalue="Python.mnist" />
         <item itemvalue="Python.script_train_doc2vec" />
-        <item itemvalue="Python.script_train_intent" />
-        <item itemvalue="Python.train" />
       </list>
     </recent_temporary>
   </component>
@@ -667,17 +672,24 @@
       <updated>1557415217094</updated>
       <workItem from="1557415220445" duration="30737000" />
       <workItem from="1557540446408" duration="45715000" />
+      <workItem from="1557824526583" duration="630000" />
+      <workItem from="1557965495678" duration="592000" />
+      <workItem from="1558315517744" duration="595000" />
+      <workItem from="1558336533322" duration="17114000" />
+      <workItem from="1558693036995" duration="1282000" />
+      <workItem from="1558696453107" duration="2031000" />
+      <workItem from="1558700151516" duration="359000" />
+      <workItem from="1558700624208" duration="3535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103954000" />
+    <option name="totallyTimeSpent" value="131306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1340812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11805555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -688,7 +700,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3293348" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32721382" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49786323" visible="true" weight="0.35313174" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49786323" visible="true" weight="0.37432578" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -712,15 +724,60 @@
       <window_info anchor="right" id="UML Diagrams" order="7" type="SLIDING" />
       <window_info anchor="right" id="Database" order="8" weight="0.32959402" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32959402" />
-      <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="SciView" order="10" weight="0.55494505" />
       <window_info anchor="right" id="Palette&#9;" order="11" />
       <window_info anchor="right" id="Theme Preview" order="12" />
       <window_info anchor="right" id="Bean Validation" order="13" />
-      <window_info anchor="right" id="R Packages" order="14" />
-      <window_info anchor="right" id="R Graphics" order="15" />
-      <window_info anchor="right" id="Leiningen" order="16" />
-      <window_info anchor="right" id="REPL" order="17" side_tool="true" />
+      <window_info anchor="right" id="Leiningen" order="14" sideWeight="0.49823943" weight="0.32959402" />
+      <window_info anchor="right" id="R Packages" order="15" />
+      <window_info anchor="right" id="REPL" order="16" side_tool="true" />
+      <window_info anchor="right" id="R Graphics" order="17" sideWeight="0.50176054" side_tool="true" weight="0.32959402" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11271367" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3293348" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32721382" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49786323" weight="0.37473002" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50213677" side_tool="true" weight="0.3838604" />
+      <window_info anchor="bottom" id="Sequence" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.49839744" weight="0.3293348" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="PlantUML" order="3" weight="0.32959402" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Graphical Navigator" order="6" type="SLIDING" />
+      <window_info anchor="right" id="UML Diagrams" order="7" type="SLIDING" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32959402" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32959402" />
+      <window_info anchor="right" id="SciView" order="10" weight="0.55494505" />
+      <window_info anchor="right" id="Palette&#9;" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="12" />
+      <window_info anchor="right" id="Bean Validation" order="13" />
+      <window_info anchor="right" id="Leiningen" order="14" sideWeight="0.49823943" weight="0.32959402" />
+      <window_info anchor="right" id="R Packages" order="15" />
+      <window_info anchor="right" id="REPL" order="16" side_tool="true" />
+      <window_info anchor="right" id="R Graphics" order="17" sideWeight="0.50176054" side_tool="true" weight="0.32959402" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -729,424 +786,242 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chat/intent/configs.py">
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/묘함.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/놀랐니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/놀람.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/기분좋음.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/기분좋니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/기분나쁨.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/기분나쁘니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/호출/호출.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/직업이뭐니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/이름뭐니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/월요일.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/여행왔어.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/언제잘거니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/시간이없어.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/상관없어.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/병에걸렸어.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/밥먹었니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/무슨음식이좋니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/무슨영화가좋니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/무슨색이좋니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/무슨만화가좋니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/무슨게임이좋니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/넌뭘먹고사니.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/우울.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/명사/사물/자동차.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/명사/사물/장난감.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/명사/사물/IT기기.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="361">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/명사/사물/전자제품.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="2071">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/명사/예술/만화.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/명사/예술/문학.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/명사/예술/미술.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
+        <state relative-caret-position="-1164" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/doc2vec/data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/목적/날씨.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="358">
-          <caret line="354" column="5" selection-start-line="354" selection-start-column="5" selection-end-line="354" selection-end-column="5" />
+        <state relative-caret-position="172">
+          <caret line="20" column="72" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="20" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/목적/이슈.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+    <entry file="file://$PROJECT_DIR$/data/동사/권유/추천함.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/동사/권유/권유함.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/목적/잘못들음.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/삐짐.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/intent/data.py">
+    <entry file="file://$PROJECT_DIR$/data/etc/인사/안부.json" />
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/묘하니.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/삐졌니.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/social-robot-bao-export.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/intent/train_intent.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-93719" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Capstone-Project/venv/Lib/site-packages/gensim/models/doc2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1551" selection-start-line="1551" selection-end-line="1551" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/doc2vec/train_doc2vec.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1230">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/util/hanspell/spell_checker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="125" selection-start-line="125" selection-end-line="125" selection-end-column="15" />
-          <folding>
-            <element signature="e#54#65#0" expanded="true" />
-          </folding>
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#74#121#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/doc2vec/model_train.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_train_intent.py">
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/화났니.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="420">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script_train_doc2vec.py">
+    <entry file="file://$PROJECT_DIR$/data/동사/감정/화남.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="332">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/doc2vec/configs.py">
+    <entry file="file://$PROJECT_DIR$/data/etc/대답/거절.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="-58">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/식사/배고픔.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-599">
-          <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_main.py">
+    <entry file="file://$PROJECT_DIR$/data/etc/대답/공감.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="e#74#88#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-298">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/밥먹었니.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+    <entry file="file://$PROJECT_DIR$/data/etc/대답/긍정.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="481">
-          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/대답/부정.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-898" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/대답/비난.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/병에걸렸어.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/시간이없어.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="481">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+    <entry file="file://$PROJECT_DIR$/data/etc/인사/반가움.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/여행왔어.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+    <entry file="file://$PROJECT_DIR$/data/etc/인사/아침인사.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-750">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/이름뭐니.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/목적/시선.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="7" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/data/etc/인사/저녁인사.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-841" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/doc2vec/test_doc2vec.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="361">
-          <caret line="10907" lean-forward="true" selection-start-line="10903" selection-end-line="10907" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/나사랑하니.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="481">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/음성/말함.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="391">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/싸움/때리니.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1019" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/싸움/때림.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/무슨음식이좋니.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/식사/먹니.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/식사/먹음.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="271">
-          <caret line="33" column="11" lean-forward="true" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/식사/먹고싶음.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-1757">
-          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/시간/현재.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-3749">
-          <caret selection-end-line="137" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/시간/미래질문.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="120">
-          <caret line="118" column="26" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/시간/과거질문.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/시간/현재 질문.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/식사/맛있니.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/어디어디.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/왜그렇지않니.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/월요일.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/data/etc/인사/취침인사.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/금요일.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/나이몇살이니.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/자주묻는질문/무슨만화가좋니.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/etc/의성어/감탄.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="8" lean-forward="true" selection-end-line="21" selection-end-column="9" />
+    <entry file="file://$PROJECT_DIR$/script_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#75#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/동사/감정/놀람.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+    <entry file="file://$PROJECT_DIR$/data/etc/되묻기/진위판별.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="451">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/etc/인사/인사.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
