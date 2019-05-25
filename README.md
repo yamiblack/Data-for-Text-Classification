@@ -1,6 +1,6 @@
 # Chatbot-Architecture
 
-# 인공지능 소셜로봇 '바오' 
+# 인공지능 소셜로봇 '바오' 대화시스템 아키텍처
 
 
 <img src="https://firebasestorage.googleapis.com/v0/b/social-robot-bao.appspot.com/o/%EC%B1%97%EB%B4%87%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.jpg?alt=media&token=90624d51-fb14-48dd-8391-6d72abab8934">
