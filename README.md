@@ -1,19 +1,19 @@
 # Chatbot-Architecture
 
+# Architecture
 
-* 인공지능 로봇 제작에 사용될 데이터입니다.
 
-* 주 4일 일 밤 00:00시 까지 업로드 해주세요.
+<img src="https://firebasestorage.googleapis.com/v0/b/social-robot-bao.appspot.com/o/%EC%B1%97%EB%B4%87%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.jpg?alt=media&token=7fde47ef-c1e7-4ff1-9f75-24c8b447078b">
 
-* 하루 작업분량 : 동사2 + 명사2  or  동사1 + etc1 + 명사2
+###### *클릭해서 확대해서 보시길 바랍니다.*
+
+
+
+<br>
+<br>
 <br>
 
-
-<br>
-<br>
-<br>
-
-# 규칙
+# 데이터 규칙
 
  
 <br>
