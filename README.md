@@ -3,7 +3,7 @@
 # Architecture
 
 
-<img src="https://firebasestorage.googleapis.com/v0/b/social-robot-bao.appspot.com/o/%EC%B1%97%EB%B4%87%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.jpg?alt=media&token=7034322d-07c2-401f-869b-3fcb9206093a">
+<img src="https://firebasestorage.googleapis.com/v0/b/social-robot-bao.appspot.com/o/%EC%B1%97%EB%B4%87%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.jpg?alt=media&token=90624d51-fb14-48dd-8391-6d72abab8934">
 
 ###### *클릭해서 확대해서 보시길 바랍니다.*
 
