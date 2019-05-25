@@ -1,6 +1,6 @@
 # Chatbot-Architecture
 
-# Architecture
+# 인공지능 소셜로봇 '바오' 
 
 
 <img src="https://firebasestorage.googleapis.com/v0/b/social-robot-bao.appspot.com/o/%EC%B1%97%EB%B4%87%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.jpg?alt=media&token=90624d51-fb14-48dd-8391-6d72abab8934">
@@ -13,7 +13,7 @@
 <br>
 <br>
 
-# 데이터 규칙
+# 데이터 작성 규칙
 
  
 <br>
